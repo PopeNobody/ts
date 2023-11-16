@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "nodeNext",
+    "target": "es5",
+    "sourceMap": true,
+    "sourceRoot": "src",
+    "outDir": "lib", 
+    "moduleResolution": "nodeNext"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

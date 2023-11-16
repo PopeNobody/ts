@@ -1,0 +1,17 @@
+{
+  "name": "empty",
+  "version": "1.0.0",
+  "description": "Empty Typescript Package",
+  "main": "./dst/run.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "rm -fr dst && tsc && node dst/run.js"
+  },
+  "author": "nobody@copblock.app",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
